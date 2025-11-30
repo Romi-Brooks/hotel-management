@@ -1,28 +1,38 @@
-name: NodeJS with Webpack
+name: Vue Deploy to GitHub Pages
 
+# 触发条件：推送到 main 分支（若用 master 则替换）
 on:
   push:
-    branches: [ "master" ]
-  pull_request:
-    branches: [ "master" ]
+    branches: [ "main" ]
+  # 可选：手动触发工作流
+  workflow_dispatch:
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [18.x, 20.x, 22.x]
-
+    # 仅保留一个 Node 版本即可（Vue 3 推荐 18.x+/20.x）
+    # 若需多版本测试，可保留 matrix，但部署只需一个产物
     steps:
-    - uses: actions/checkout@v4
+      - name: 拉取仓库代码
+        uses: actions/checkout@v4
 
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v4
-      with:
-        node-version: ${{ matrix.node-version }}
+      - name: 安装 Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20.x
+          # 缓存 npm 依赖，加速下次构建
+          cache: 'npm'
 
-    - name: Build
-      run: |
-        npm install
-        npx webpack
+      - name: 安装依赖
+        run: npm install
+
+      - name: 构建 Vue 项目
+        run: npm run build # Vue CLI/Vite 通用构建命令，替代原 npx webpack
+
+      - name: 部署到 GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4 # 主流的 GH Pages 部署 Action
+        with:
+          # GitHub 自动生成的 Token，无需手动配置
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          # 构建产物目录：Vue CLI 默认为 dist，Vite 也默认为 dist
+          publish_dir: ./dist
