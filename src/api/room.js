@@ -59,3 +59,8 @@ export const getFreeRoomListApi = () => request({
     url: '/room/freeList', // 改为和后端路由一致的“freeList”（大写L）
     method: 'get'
 })
+
+export const getRoomDetailApi = (roomNumber) => request({
+    url: `/api/room/detail/${roomNumber}`,
+    method: 'get'
+})

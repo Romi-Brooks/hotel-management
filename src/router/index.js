@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import { useUserStore } from '../store/user'
 import Layout from '../views/layout/Layout.vue'
-
+import RoomDetail from '@/views/room/RoomDetail.vue'
 const routes = [
     {
         path: '/login',
@@ -21,7 +21,12 @@ const routes = [
             { path: 'admin-manage', name: 'AdminManage', component: () => import('../views/admin/AdminManage.vue'), meta: { title: '管理员管理', requiresAuth: true, requiresSuperAdmin: true } }
         ]
     },
-    { path: '/:pathMatch(.*)*', redirect: '/login' }
+    { path: '/:pathMatch(.*)*', redirect: '/login' },
+    {
+        path: '/room/detail/:roomNumber', // 动态路由参数：房间号
+        name: 'RoomDetail',
+        component: RoomDetail
+    }
 ]
 
 const router = createRouter({ history: createWebHistory(), routes })

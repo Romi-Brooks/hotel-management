@@ -51,6 +51,14 @@
 
     <!-- 房间详情弹窗 -->
     <el-dialog v-model="detailVisible" title="房间详情" width="600px">
+<!--      &lt;!&ndash; 房间列表页的操作列 &ndash;&gt;-->
+<!--      <el-table-column label="操作" width="120">-->
+<!--        <template #default="scope">-->
+<!--          <el-button type="primary" size="small" @click="toRoomDetail(scope.row.roomNumber)">-->
+<!--            查看详情-->
+<!--          </el-button>-->
+<!--        </template>-->
+<!--      </el-table-column>-->
       <el-form :model="currentRoom" label-width="120px" label-position="left">
         <el-form-item label="房间号">
           <span>{{ currentRoom.roomNumber }}</span>
@@ -161,6 +169,17 @@ const roomForm = ref({
 // 4. 下拉列表
 const roomTypeList = ref([])
 const hotelList = ref([])
+
+// import { useRouter } from 'vue-router'
+// const router = useRouter()
+//
+// // 跳转详情页
+// const toRoomDetail = (roomNumber) => {
+//   router.push({
+//     path: `/room/detail/${roomNumber}`, // 路由路径
+//     params: { roomNumber }
+//   })
+// }
 
 // 5. 修复：价格验证规则（自定义验证，避免类型冲突）
 const validatePrice = (rule, value, callback) => {
