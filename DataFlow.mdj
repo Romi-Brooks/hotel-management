@@ -1,0 +1,1874 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"ownedElements": [
+						{
+							"_type": "FCFlowchart",
+							"_id": "AAAAAAGa+AmtF4y//74=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"name": "Flowchart1",
+							"ownedElements": [
+								{
+									"_type": "FCFlowchartDiagram",
+									"_id": "AAAAAAGa+AmtF4zAFj4=",
+									"_parent": {
+										"$ref": "AAAAAAGa+AmtF4y//74="
+									},
+									"name": "FlowchartDiagram1"
+								}
+							]
+						}
+					],
+					"defaultDiagram": true
+				}
+			]
+		},
+		{
+			"_type": "DFDDataFlowModel",
+			"_id": "AAAAAAGa+Ao5gIzF/uI=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "DataFlowModel1",
+			"ownedElements": [
+				{
+					"_type": "DFDDiagram",
+					"_id": "AAAAAAGa+Ao5gIzGXMs=",
+					"_parent": {
+						"$ref": "AAAAAAGa+Ao5gIzF/uI="
+					},
+					"name": "DFDDiagram1",
+					"ownedViews": [
+						{
+							"_type": "DFDDataStoreView",
+							"_id": "AAAAAAGa+ApNJ4zMYB0=",
+							"_parent": {
+								"$ref": "AAAAAAGa+Ao5gIzGXMs="
+							},
+							"model": {
+								"$ref": "AAAAAAGa+ApNJ4zKO/E="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGa+ApNJ4zNBOU=",
+									"_parent": {
+										"$ref": "AAAAAAGa+ApNJ4zMYB0="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 1428,
+									"top": 354,
+									"width": 282,
+									"height": 13,
+									"text": "DS4 支付记录表",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGa+ApNJ4zOxgA=",
+									"_parent": {
+										"$ref": "AAAAAAGa+ApNJ4zMYB0="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 1413,
+									"top": 354,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 1408,
+							"top": 344,
+							"width": 312,
+							"height": 120,
+							"nameLabel": {
+								"$ref": "AAAAAAGa+ApNJ4zNBOU="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAGa+ApNJ4zOxgA="
+							}
+						},
+						{
+							"_type": "DFDDataStoreView",
+							"_id": "AAAAAAGa+Ato+YzYbX8=",
+							"_parent": {
+								"$ref": "AAAAAAGa+Ao5gIzGXMs="
+							},
+							"model": {
+								"$ref": "AAAAAAGa+Ato+YzWo6A="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGa+Ato+YzZPXI=",
+									"_parent": {
+										"$ref": "AAAAAAGa+Ato+YzYbX8="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 1436,
+									"top": 818,
+									"width": 282,
+									"height": 13,
+									"text": "DS1 客户表",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGa+Ato+YzaF1s=",
+									"_parent": {
+										"$ref": "AAAAAAGa+Ato+YzYbX8="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 1421,
+									"top": 818,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 1416,
+							"top": 808,
+							"width": 312,
+							"height": 96,
+							"nameLabel": {
+								"$ref": "AAAAAAGa+Ato+YzZPXI="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAGa+Ato+YzaF1s="
+							}
+						},
+						{
+							"_type": "DFDDataStoreView",
+							"_id": "AAAAAAGa+AuS04zmvc0=",
+							"_parent": {
+								"$ref": "AAAAAAGa+Ao5gIzGXMs="
+							},
+							"model": {
+								"$ref": "AAAAAAGa+AuS0ozk/ao="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGa+AuS04znz2s=",
+									"_parent": {
+										"$ref": "AAAAAAGa+AuS04zmvc0="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 1436,
+									"top": 1018,
+									"width": 274,
+									"height": 13,
+									"text": "DS2 酒店与客房表",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGa+AuS04zoAkA=",
+									"_parent": {
+										"$ref": "AAAAAAGa+AuS04zmvc0="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 1421,
+									"top": 1018,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 1416,
+							"top": 1008,
+							"width": 304,
+							"height": 104,
+							"nameLabel": {
+								"$ref": "AAAAAAGa+AuS04znz2s="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAGa+AuS04zoAkA="
+							}
+						},
+						{
+							"_type": "DFDDataStoreView",
+							"_id": "AAAAAAGa+AvIIoz0amY=",
+							"_parent": {
+								"$ref": "AAAAAAGa+Ao5gIzGXMs="
+							},
+							"model": {
+								"$ref": "AAAAAAGa+AvIIozy66A="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGa+AvIIoz1Zpw=",
+									"_parent": {
+										"$ref": "AAAAAAGa+AvIIoz0amY="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 1428,
+									"top": 546,
+									"width": 282,
+									"height": 13,
+									"text": "DS3 订单与明细表",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGa+AvIIoz2vkg=",
+									"_parent": {
+										"$ref": "AAAAAAGa+AvIIoz0amY="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 1413,
+									"top": 546,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 1408,
+							"top": 536,
+							"width": 312,
+							"height": 112,
+							"nameLabel": {
+								"$ref": "AAAAAAGa+AvIIoz1Zpw="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAGa+AvIIoz2vkg="
+							}
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAGa+Axc1o0EbYs=",
+							"_parent": {
+								"$ref": "AAAAAAGa+Ao5gIzGXMs="
+							},
+							"model": {
+								"$ref": "AAAAAAGa+Axc1o0C9b4="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGa+Axc1o0KgeE=",
+									"_parent": {
+										"$ref": "AAAAAAGa+Axc1o0EbYs="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 794,
+									"top": 229,
+									"width": 87.4326171875,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGa+Axc1o0Fe8s=",
+									"_parent": {
+										"$ref": "AAAAAAGa+Axc1o0EbYs="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 794,
+									"top": 234,
+									"width": 87.4326171875,
+									"height": 13,
+									"text": "客户",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGa+Axc1o0GUbg=",
+									"_parent": {
+										"$ref": "AAAAAAGa+Axc1o0EbYs="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 456,
+									"top": 64,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 784,
+							"top": 224,
+							"width": 107.4326171875,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAGa+Axc1o0Fe8s="
+							}
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAGa+AxrIo0QwOQ=",
+							"_parent": {
+								"$ref": "AAAAAAGa+Ao5gIzGXMs="
+							},
+							"model": {
+								"$ref": "AAAAAAGa+AxrIY0O3s8="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGa+AxrIo0We1A=",
+									"_parent": {
+										"$ref": "AAAAAAGa+AxrIo0QwOQ="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 1162,
+									"top": 269,
+									"width": 87.4326171875,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGa+AxrIo0RaDw=",
+									"_parent": {
+										"$ref": "AAAAAAGa+AxrIo0QwOQ="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 1162,
+									"top": 274,
+									"width": 87.4326171875,
+									"height": 13,
+									"text": "酒店管理员",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGa+AxrIo0SZb0=",
+									"_parent": {
+										"$ref": "AAAAAAGa+AxrIo0QwOQ="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 400,
+									"top": 200,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 1152,
+							"top": 264,
+							"width": 107.4326171875,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAGa+AxrIo0RaDw="
+							}
+						},
+						{
+							"_type": "DFDProcessView",
+							"_id": "AAAAAAGa+AytKI0nDco=",
+							"_parent": {
+								"$ref": "AAAAAAGa+Ao5gIzGXMs="
+							},
+							"model": {
+								"$ref": "AAAAAAGa+AytKI0l6iU="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGa+AytKI0o5YE=",
+									"_parent": {
+										"$ref": "AAAAAAGa+AytKI0nDco="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 674,
+									"top": 1457,
+									"width": 91,
+									"height": 13,
+									"text": "客户注册与处理",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGa+AytKI0pQwg=",
+									"_parent": {
+										"$ref": "AAAAAAGa+AytKI0nDco="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 674,
+									"top": 1429,
+									"width": 91,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 664,
+							"top": 1424,
+							"width": 111,
+							"height": 56,
+							"nameLabel": {
+								"$ref": "AAAAAAGa+AytKI0o5YE="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAGa+AytKI0pQwg="
+							}
+						},
+						{
+							"_type": "DFDProcessView",
+							"_id": "AAAAAAGa+Azfvo0z3UY=",
+							"_parent": {
+								"$ref": "AAAAAAGa+Ao5gIzGXMs="
+							},
+							"model": {
+								"$ref": "AAAAAAGa+Azfvo0x1hE="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGa+Azfvo00Ju8=",
+									"_parent": {
+										"$ref": "AAAAAAGa+Azfvo0z3UY="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 570,
+									"top": 1329,
+									"width": 54.18994140625,
+									"height": 13,
+									"text": "支付处理",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGa+Azfvo011rM=",
+									"_parent": {
+										"$ref": "AAAAAAGa+Azfvo0z3UY="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 570,
+									"top": 1301,
+									"width": 54.18994140625,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 560,
+							"top": 1296,
+							"width": 74.18994140625,
+							"height": 56,
+							"nameLabel": {
+								"$ref": "AAAAAAGa+Azfvo00Ju8="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAGa+Azfvo011rM="
+							}
+						},
+						{
+							"_type": "DFDProcessView",
+							"_id": "AAAAAAGa+A0AA41TeIc=",
+							"_parent": {
+								"$ref": "AAAAAAGa+Ao5gIzGXMs="
+							},
+							"model": {
+								"$ref": "AAAAAAGa+A0AAo1RQDo="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGa+A0AA41UQdg=",
+									"_parent": {
+										"$ref": "AAAAAAGa+A0AA41TeIc="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 386,
+									"top": 513,
+									"width": 54.18994140625,
+									"height": 13,
+									"text": "预订下单",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGa+A0AA41VALY=",
+									"_parent": {
+										"$ref": "AAAAAAGa+A0AA41TeIc="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 386,
+									"top": 485,
+									"width": 54.18994140625,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 376,
+							"top": 480,
+							"width": 74.18994140625,
+							"height": 56,
+							"nameLabel": {
+								"$ref": "AAAAAAGa+A0AA41UQdg="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAGa+A0AA41VALY="
+							}
+						},
+						{
+							"_type": "DFDProcessView",
+							"_id": "AAAAAAGa+A0e9Y1fA6M=",
+							"_parent": {
+								"$ref": "AAAAAAGa+Ao5gIzGXMs="
+							},
+							"model": {
+								"$ref": "AAAAAAGa+A0e9Y1dbNs="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGa+A0e9Y1g9Eo=",
+									"_parent": {
+										"$ref": "AAAAAAGa+A0e9Y1fA6M="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 482,
+									"top": 1177,
+									"width": 54.18994140625,
+									"height": 13,
+									"text": "房源维护",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGa+A0e9Y1horc=",
+									"_parent": {
+										"$ref": "AAAAAAGa+A0e9Y1fA6M="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 482,
+									"top": 1149,
+									"width": 54.18994140625,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 472,
+							"top": 1144,
+							"width": 74.18994140625,
+							"height": 56,
+							"nameLabel": {
+								"$ref": "AAAAAAGa+A0e9Y1g9Eo="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAGa+A0e9Y1horc="
+							}
+						},
+						{
+							"_type": "DFDProcessView",
+							"_id": "AAAAAAGa+A0/2Y1rytA=",
+							"_parent": {
+								"$ref": "AAAAAAGa+Ao5gIzGXMs="
+							},
+							"model": {
+								"$ref": "AAAAAAGa+A0/2Y1pQ2I="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGa+A0/2Y1ssCo=",
+									"_parent": {
+										"$ref": "AAAAAAGa+A0/2Y1rytA="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 914,
+									"top": 1465,
+									"width": 54.18994140625,
+									"height": 13,
+									"text": "房源搜索",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGa+A0/2Y1t/8w=",
+									"_parent": {
+										"$ref": "AAAAAAGa+A0/2Y1rytA="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 914,
+									"top": 1437,
+									"width": 54.18994140625,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 904,
+							"top": 1432,
+							"width": 74.18994140625,
+							"height": 56,
+							"nameLabel": {
+								"$ref": "AAAAAAGa+A0/2Y1ssCo="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAGa+A0/2Y1t/8w="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGa+A134o16UvE=",
+							"_parent": {
+								"$ref": "AAAAAAGa+Ao5gIzGXMs="
+							},
+							"model": {
+								"$ref": "AAAAAAGa+A134o14N+k="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGa+A134o17+j8=",
+									"_parent": {
+										"$ref": "AAAAAAGa+A134o16UvE="
+									},
+									"model": {
+										"$ref": "AAAAAAGa+A134o14N+k="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 649,
+									"top": 329,
+									"width": 104,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGa+A134o16UvE="
+									},
+									"edgePosition": 1,
+									"text": "支付，金额，方式"
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "AAAAAAGa+Azfvo0z3UY="
+							},
+							"tail": {
+								"$ref": "AAAAAAGa+Axc1o0EbYs="
+							},
+							"lineStyle": 2,
+							"points": "829:257;829:320;576:320;576:1296",
+							"nameLabel": {
+								"$ref": "AAAAAAGa+A134o17+j8="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGa+A36II2K6Z0=",
+							"_parent": {
+								"$ref": "AAAAAAGa+Ao5gIzGXMs="
+							},
+							"model": {
+								"$ref": "AAAAAAGa+A36II2ILsA="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGa+A36II2Lx70=",
+									"_parent": {
+										"$ref": "AAAAAAGa+A36II2K6Z0="
+									},
+									"model": {
+										"$ref": "AAAAAAGa+A36II2ILsA="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 628,
+									"top": 233,
+									"width": 117,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGa+A36II2K6Z0="
+									},
+									"edgePosition": 1,
+									"text": "姓名，手机，身份证"
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "AAAAAAGa+AytKI0nDco="
+							},
+							"tail": {
+								"$ref": "AAAAAAGa+Axc1o0EbYs="
+							},
+							"lineStyle": 2,
+							"points": "784:240;671:240;671:1424",
+							"nameLabel": {
+								"$ref": "AAAAAAGa+A36II2Lx70="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGa+A5jaY2dzPo=",
+							"_parent": {
+								"$ref": "AAAAAAGa+Ao5gIzGXMs="
+							},
+							"model": {
+								"$ref": "AAAAAAGa+A5jaI2bAUY="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGa+A5jaY2erS8=",
+									"_parent": {
+										"$ref": "AAAAAAGa+A5jaY2dzPo="
+									},
+									"model": {
+										"$ref": "AAAAAAGa+A5jaI2bAUY="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 991,
+									"top": 779,
+									"width": 52,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGa+A5jaY2dzPo="
+									},
+									"edgePosition": 1,
+									"text": "支付回执"
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "AAAAAAGa+Axc1o0EbYs="
+							},
+							"tail": {
+								"$ref": "AAAAAAGa+Azfvo0z3UY="
+							},
+							"lineStyle": 2,
+							"points": "634:1332;1032:1332;1032:240;891:240",
+							"nameLabel": {
+								"$ref": "AAAAAAGa+A5jaY2erS8="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGa+BCp642shHI=",
+							"_parent": {
+								"$ref": "AAAAAAGa+Ao5gIzGXMs="
+							},
+							"model": {
+								"$ref": "AAAAAAGa+BCp642qROY="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGa+BCp642tenY=",
+									"_parent": {
+										"$ref": "AAAAAAGa+BCp642shHI="
+									},
+									"model": {
+										"$ref": "AAAAAAGa+BCp642qROY="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 561,
+									"top": 383,
+									"width": 78,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGa+BCp642shHI="
+									},
+									"edgePosition": 1,
+									"text": "创建支付记录"
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "AAAAAAGa+ApNJ4zMYB0="
+							},
+							"tail": {
+								"$ref": "AAAAAAGa+Azfvo0z3UY="
+							},
+							"lineStyle": 2,
+							"points": "600:1296;600:404;1408:404",
+							"nameLabel": {
+								"$ref": "AAAAAAGa+BCp642tenY="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGa+BIi/o22DaE=",
+							"_parent": {
+								"$ref": "AAAAAAGa+Ao5gIzGXMs="
+							},
+							"model": {
+								"$ref": "AAAAAAGa+BIi/o20RNo="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGa+BIi/o23rWI=",
+									"_parent": {
+										"$ref": "AAAAAAGa+BIi/o22DaE="
+									},
+									"model": {
+										"$ref": "AAAAAAGa+BIi/o20RNo="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 825,
+									"top": 501,
+									"width": 65,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGa+BIi/o22DaE="
+									},
+									"edgePosition": 1,
+									"text": "返回订单号"
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "AAAAAAGa+Axc1o0EbYs="
+							},
+							"tail": {
+								"$ref": "AAAAAAGa+A0AA41TeIc="
+							},
+							"lineStyle": 2,
+							"points": "450:508;872:508;872:257",
+							"nameLabel": {
+								"$ref": "AAAAAAGa+BIi/o23rWI="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGa+BKL/o3CFtM=",
+							"_parent": {
+								"$ref": "AAAAAAGa+Ao5gIzGXMs="
+							},
+							"model": {
+								"$ref": "AAAAAAGa+BKL/o3AW20="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGa+BKL/o3Dp/s=",
+									"_parent": {
+										"$ref": "AAAAAAGa+BKL/o3CFtM="
+									},
+									"model": {
+										"$ref": "AAAAAAGa+BKL/o3AW20="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 688,
+									"top": 783,
+									"width": 65,
+									"height": 13,
+									"alpha": -2.9037568868429253,
+									"distance": 67.91170738539859,
+									"hostEdge": {
+										"$ref": "AAAAAAGa+BKL/o3CFtM="
+									},
+									"edgePosition": 1,
+									"text": "读取客户ID"
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "AAAAAAGa+AytKI0nDco="
+							},
+							"tail": {
+								"$ref": "AAAAAAGa+Ato+YzYbX8="
+							},
+							"lineStyle": 2,
+							"points": "1416:856;736:856;736:1424",
+							"nameLabel": {
+								"$ref": "AAAAAAGa+BKL/o3Dp/s="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGa+BLveY3O0YA=",
+							"_parent": {
+								"$ref": "AAAAAAGa+Ao5gIzGXMs="
+							},
+							"model": {
+								"$ref": "AAAAAAGa+BLveY3MEZ4="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGa+BLveY3Pv+Y=",
+									"_parent": {
+										"$ref": "AAAAAAGa+BLveY3O0YA="
+									},
+									"model": {
+										"$ref": "AAAAAAGa+BLveY3MEZ4="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 351,
+									"top": 809,
+									"width": 52,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGa+BLveY3O0YA="
+									},
+									"edgePosition": 1,
+									"text": "验证客户"
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "AAAAAAGa+A0AA41TeIc="
+							},
+							"tail": {
+								"$ref": "AAAAAAGa+Ato+YzYbX8="
+							},
+							"lineStyle": 2,
+							"points": "1416:816;392:816;392:536",
+							"nameLabel": {
+								"$ref": "AAAAAAGa+BLveY3Pv+Y="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGa+BNTaI3eBDA=",
+							"_parent": {
+								"$ref": "AAAAAAGa+Ao5gIzGXMs="
+							},
+							"model": {
+								"$ref": "AAAAAAGa+BNTZ43c9Jg="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGa+BNTaI3fsV8=",
+									"_parent": {
+										"$ref": "AAAAAAGa+BNTaI3eBDA="
+									},
+									"model": {
+										"$ref": "AAAAAAGa+BNTZ43c9Jg="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 720,
+									"top": 856,
+									"width": 78,
+									"height": 13,
+									"alpha": 0.31628607416477605,
+									"distance": 57.87054518492115,
+									"hostEdge": {
+										"$ref": "AAAAAAGa+BNTaI3eBDA="
+									},
+									"edgePosition": 1,
+									"text": "储存客户信息"
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "AAAAAAGa+Ato+YzYbX8="
+							},
+							"tail": {
+								"$ref": "AAAAAAGa+AytKI0nDco="
+							},
+							"lineStyle": 2,
+							"points": "704:1424;704:880;1416:880",
+							"nameLabel": {
+								"$ref": "AAAAAAGa+BNTaI3fsV8="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGa+BQDEI3sCKE=",
+							"_parent": {
+								"$ref": "AAAAAAGa+Ao5gIzGXMs="
+							},
+							"model": {
+								"$ref": "AAAAAAGa+BQDEI3qvl8="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGa+BQDEI3tYDg=",
+									"_parent": {
+										"$ref": "AAAAAAGa+BQDEI3sCKE="
+									},
+									"model": {
+										"$ref": "AAAAAAGa+BQDEI3qvl8="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 729,
+									"top": 537,
+									"width": 156,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGa+BQDEI3sCKE="
+									},
+									"edgePosition": 1,
+									"text": "下单日期，人数，特殊要求"
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "AAAAAAGa+A0AA41TeIc="
+							},
+							"tail": {
+								"$ref": "AAAAAAGa+Axc1o0EbYs="
+							},
+							"lineStyle": 2,
+							"points": "808:257;808:528;450:528",
+							"nameLabel": {
+								"$ref": "AAAAAAGa+BQDEI3tYDg="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGa+BTGUY35NbE=",
+							"_parent": {
+								"$ref": "AAAAAAGa+Ao5gIzGXMs="
+							},
+							"model": {
+								"$ref": "AAAAAAGa+BTGUI33ySo="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGa+BTGUY36C6Q=",
+									"_parent": {
+										"$ref": "AAAAAAGa+BTGUY35NbE="
+									},
+									"model": {
+										"$ref": "AAAAAAGa+BTGUI33ySo="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 747,
+									"top": 1387,
+									"width": 78,
+									"height": 13,
+									"alpha": -5.674496094248432,
+									"distance": 80.44874144447506,
+									"hostEdge": {
+										"$ref": "AAAAAAGa+BTGUY35NbE="
+									},
+									"edgePosition": 1,
+									"text": "返回可用列表"
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "AAAAAAGa+Axc1o0EbYs="
+							},
+							"tail": {
+								"$ref": "AAAAAAGa+A0/2Y1rytA="
+							},
+							"lineStyle": 2,
+							"points": "904:1460;832:1460;832:257",
+							"nameLabel": {
+								"$ref": "AAAAAAGa+BTGUY36C6Q="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGa+BUAOo4ELKQ=",
+							"_parent": {
+								"$ref": "AAAAAAGa+Ao5gIzGXMs="
+							},
+							"model": {
+								"$ref": "AAAAAAGa+BUAOo4CdKA="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGa+BUAOo4FEGI=",
+									"_parent": {
+										"$ref": "AAAAAAGa+BUAOo4ELKQ="
+									},
+									"model": {
+										"$ref": "AAAAAAGa+BUAOo4CdKA="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 848,
+									"top": 1396,
+									"width": 91,
+									"height": 13,
+									"alpha": 0.9109477928793361,
+									"distance": 73.40980860893181,
+									"hostEdge": {
+										"$ref": "AAAAAAGa+BUAOo4ELKQ="
+									},
+									"edgePosition": 1,
+									"text": "搜索日期，城市"
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "AAAAAAGa+A0/2Y1rytA="
+							},
+							"tail": {
+								"$ref": "AAAAAAGa+Axc1o0EbYs="
+							},
+							"lineStyle": 2,
+							"points": "848:257;848:1460;904:1460",
+							"nameLabel": {
+								"$ref": "AAAAAAGa+BUAOo4FEGI="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGa+Bk9x44ttKM=",
+							"_parent": {
+								"$ref": "AAAAAAGa+Ao5gIzGXMs="
+							},
+							"model": {
+								"$ref": "AAAAAAGa+Bk9x44rHiY="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGa+Bk9x44ueiU=",
+									"_parent": {
+										"$ref": "AAAAAAGa+Bk9x44ttKM="
+									},
+									"model": {
+										"$ref": "AAAAAAGa+Bk9x44rHiY="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 1146,
+									"top": 1181,
+									"width": 117,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGa+Bk9x44ttKM="
+									},
+									"edgePosition": 1,
+									"text": "酒店房型，客房信息"
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "AAAAAAGa+A0e9Y1fA6M="
+							},
+							"tail": {
+								"$ref": "AAAAAAGa+AxrIo0QwOQ="
+							},
+							"lineStyle": 2,
+							"points": "1205:297;1205:1172;546:1172",
+							"nameLabel": {
+								"$ref": "AAAAAAGa+Bk9x44ueiU="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGa+BlrdI43iuo=",
+							"_parent": {
+								"$ref": "AAAAAAGa+Ao5gIzGXMs="
+							},
+							"model": {
+								"$ref": "AAAAAAGa+BlrdI41N8s="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGa+BlrdI44eKo=",
+									"_parent": {
+										"$ref": "AAAAAAGa+BlrdI43iuo="
+									},
+									"model": {
+										"$ref": "AAAAAAGa+BlrdI41N8s="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 451,
+									"top": 1059,
+									"width": 117,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGa+BlrdI43iuo="
+									},
+									"edgePosition": 1,
+									"text": "更新客房状态，价格"
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "AAAAAAGa+AuS04zmvc0="
+							},
+							"tail": {
+								"$ref": "AAAAAAGa+A0e9Y1fA6M="
+							},
+							"lineStyle": 2,
+							"points": "509:1144;509:1080;1416:1080",
+							"nameLabel": {
+								"$ref": "AAAAAAGa+BlrdI44eKo="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGa+Bmkro5CI+E=",
+							"_parent": {
+								"$ref": "AAAAAAGa+Ao5gIzGXMs="
+							},
+							"model": {
+								"$ref": "AAAAAAGa+BmkrY5Ai7Q="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGa+Bmkro5D5ls=",
+									"_parent": {
+										"$ref": "AAAAAAGa+Bmkro5CI+E="
+									},
+									"model": {
+										"$ref": "AAAAAAGa+BmkrY5Ai7Q="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 385,
+									"top": 1027,
+									"width": 78,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGa+Bmkro5CI+E="
+									},
+									"edgePosition": 1,
+									"text": "更新客房占用"
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "AAAAAAGa+AuS04zmvc0="
+							},
+							"tail": {
+								"$ref": "AAAAAAGa+A0AA41TeIc="
+							},
+							"lineStyle": 2,
+							"points": "424:536;424:1048;1416:1048",
+							"nameLabel": {
+								"$ref": "AAAAAAGa+Bmkro5D5ls="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGa+BnTNI5MwjE=",
+							"_parent": {
+								"$ref": "AAAAAAGa+Ao5gIzGXMs="
+							},
+							"model": {
+								"$ref": "AAAAAAGa+BnTNI5Kj2s="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGa+BnTNI5NRMo=",
+									"_parent": {
+										"$ref": "AAAAAAGa+BnTNI5MwjE="
+									},
+									"model": {
+										"$ref": "AAAAAAGa+BnTNI5Kj2s="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 543,
+									"top": 749,
+									"width": 52,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGa+BnTNI5MwjE="
+									},
+									"edgePosition": 1,
+									"text": "检查房态"
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "AAAAAAGa+A0AA41TeIc="
+							},
+							"tail": {
+								"$ref": "AAAAAAGa+AuS04zmvc0="
+							},
+							"lineStyle": 2,
+							"points": "1416:1024;584:1024;584:488;450:488",
+							"nameLabel": {
+								"$ref": "AAAAAAGa+BnTNI5NRMo="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGa+BpPqo5ZSWo=",
+							"_parent": {
+								"$ref": "AAAAAAGa+Ao5gIzGXMs="
+							},
+							"model": {
+								"$ref": "AAAAAAGa+BpPqY5Xjzc="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGa+BpPqo5ajZE=",
+									"_parent": {
+										"$ref": "AAAAAAGa+BpPqo5ZSWo="
+									},
+									"model": {
+										"$ref": "AAAAAAGa+BpPqY5Xjzc="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 1546,
+									"top": 1469,
+									"width": 91,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGa+BpPqo5ZSWo="
+									},
+									"edgePosition": 1,
+									"text": "读取房型，状态"
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "AAAAAAGa+A0/2Y1rytA="
+							},
+							"tail": {
+								"$ref": "AAAAAAGa+AuS04zmvc0="
+							},
+							"lineStyle": 2,
+							"points": "1592:1112;1592:1460;978:1460",
+							"nameLabel": {
+								"$ref": "AAAAAAGa+BpPqo5ajZE="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGa+Bth+45lqA0=",
+							"_parent": {
+								"$ref": "AAAAAAGa+Ao5gIzGXMs="
+							},
+							"model": {
+								"$ref": "AAAAAAGa+Bth+45j9AU="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGa+Bth+45m6N4=",
+									"_parent": {
+										"$ref": "AAAAAAGa+Bth+45lqA0="
+									},
+									"model": {
+										"$ref": "AAAAAAGa+Bth+45j9AU="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 585,
+									"top": 571,
+									"width": 78,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGa+Bth+45lqA0="
+									},
+									"edgePosition": 1,
+									"text": "更新订单状态"
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "AAAAAAGa+AvIIoz0amY="
+							},
+							"tail": {
+								"$ref": "AAAAAAGa+Azfvo0z3UY="
+							},
+							"lineStyle": 2,
+							"points": "624:1296;624:592;1408:592",
+							"nameLabel": {
+								"$ref": "AAAAAAGa+Bth+45m6N4="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGa+BwAp46EyPo=",
+							"_parent": {
+								"$ref": "AAAAAAGa+Ao5gIzGXMs="
+							},
+							"model": {
+								"$ref": "AAAAAAGa+BwAp46CHLk="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGa+BwAp46F9Ho=",
+									"_parent": {
+										"$ref": "AAAAAAGa+BwAp46EyPo="
+									},
+									"model": {
+										"$ref": "AAAAAAGa+BwAp46CHLk="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 347,
+									"top": 575,
+									"width": 117,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGa+BwAp46EyPo="
+									},
+									"edgePosition": 1,
+									"text": "创建订单，锁定房源"
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "AAAAAAGa+AvIIoz0amY="
+							},
+							"tail": {
+								"$ref": "AAAAAAGa+A0AA41TeIc="
+							},
+							"lineStyle": 2,
+							"points": "405:536;405:596;1408:596",
+							"nameLabel": {
+								"$ref": "AAAAAAGa+BwAp46F9Ho="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDDataStore",
+					"_id": "AAAAAAGa+ApNJ4zKO/E=",
+					"_parent": {
+						"$ref": "AAAAAAGa+Ao5gIzF/uI="
+					},
+					"name": "DS4 支付记录表"
+				},
+				{
+					"_type": "DFDDataStore",
+					"_id": "AAAAAAGa+Ato+YzWo6A=",
+					"_parent": {
+						"$ref": "AAAAAAGa+Ao5gIzF/uI="
+					},
+					"name": "DS1 客户表",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGa+BKL/o3AW20=",
+							"_parent": {
+								"$ref": "AAAAAAGa+Ato+YzWo6A="
+							},
+							"name": "读取客户ID",
+							"source": {
+								"$ref": "AAAAAAGa+Ato+YzWo6A="
+							},
+							"target": {
+								"$ref": "AAAAAAGa+AytKI0l6iU="
+							}
+						},
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGa+BLveY3MEZ4=",
+							"_parent": {
+								"$ref": "AAAAAAGa+Ato+YzWo6A="
+							},
+							"name": "验证客户",
+							"source": {
+								"$ref": "AAAAAAGa+Ato+YzWo6A="
+							},
+							"target": {
+								"$ref": "AAAAAAGa+A0AAo1RQDo="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDDataStore",
+					"_id": "AAAAAAGa+AuS0ozk/ao=",
+					"_parent": {
+						"$ref": "AAAAAAGa+Ao5gIzF/uI="
+					},
+					"name": "DS2 酒店与客房表",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGa+BnTNI5Kj2s=",
+							"_parent": {
+								"$ref": "AAAAAAGa+AuS0ozk/ao="
+							},
+							"name": "检查房态",
+							"source": {
+								"$ref": "AAAAAAGa+AuS0ozk/ao="
+							},
+							"target": {
+								"$ref": "AAAAAAGa+A0AAo1RQDo="
+							}
+						},
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGa+BpPqY5Xjzc=",
+							"_parent": {
+								"$ref": "AAAAAAGa+AuS0ozk/ao="
+							},
+							"name": "读取房型，状态",
+							"source": {
+								"$ref": "AAAAAAGa+AuS0ozk/ao="
+							},
+							"target": {
+								"$ref": "AAAAAAGa+A0/2Y1pQ2I="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDDataStore",
+					"_id": "AAAAAAGa+AvIIozy66A=",
+					"_parent": {
+						"$ref": "AAAAAAGa+Ao5gIzF/uI="
+					},
+					"name": "DS3 订单与明细表"
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAGa+Axc1o0C9b4=",
+					"_parent": {
+						"$ref": "AAAAAAGa+Ao5gIzF/uI="
+					},
+					"name": "客户",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGa+A134o14N+k=",
+							"_parent": {
+								"$ref": "AAAAAAGa+Axc1o0C9b4="
+							},
+							"name": "支付，金额，方式",
+							"source": {
+								"$ref": "AAAAAAGa+Axc1o0C9b4="
+							},
+							"target": {
+								"$ref": "AAAAAAGa+Azfvo0x1hE="
+							}
+						},
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGa+A36II2ILsA=",
+							"_parent": {
+								"$ref": "AAAAAAGa+Axc1o0C9b4="
+							},
+							"name": "姓名，手机，身份证",
+							"source": {
+								"$ref": "AAAAAAGa+Axc1o0C9b4="
+							},
+							"target": {
+								"$ref": "AAAAAAGa+AytKI0l6iU="
+							}
+						},
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGa+BQDEI3qvl8=",
+							"_parent": {
+								"$ref": "AAAAAAGa+Axc1o0C9b4="
+							},
+							"name": "下单日期，人数，特殊要求",
+							"source": {
+								"$ref": "AAAAAAGa+Axc1o0C9b4="
+							},
+							"target": {
+								"$ref": "AAAAAAGa+A0AAo1RQDo="
+							}
+						},
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGa+BUAOo4CdKA=",
+							"_parent": {
+								"$ref": "AAAAAAGa+Axc1o0C9b4="
+							},
+							"name": "搜索日期，城市",
+							"source": {
+								"$ref": "AAAAAAGa+Axc1o0C9b4="
+							},
+							"target": {
+								"$ref": "AAAAAAGa+A0/2Y1pQ2I="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAGa+AxrIY0O3s8=",
+					"_parent": {
+						"$ref": "AAAAAAGa+Ao5gIzF/uI="
+					},
+					"name": "酒店管理员",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGa+Bk9x44rHiY=",
+							"_parent": {
+								"$ref": "AAAAAAGa+AxrIY0O3s8="
+							},
+							"name": "酒店房型，客房信息",
+							"source": {
+								"$ref": "AAAAAAGa+AxrIY0O3s8="
+							},
+							"target": {
+								"$ref": "AAAAAAGa+A0e9Y1dbNs="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "AAAAAAGa+AytKI0l6iU=",
+					"_parent": {
+						"$ref": "AAAAAAGa+Ao5gIzF/uI="
+					},
+					"name": "客户注册与处理",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGa+BNTZ43c9Jg=",
+							"_parent": {
+								"$ref": "AAAAAAGa+AytKI0l6iU="
+							},
+							"name": "储存客户信息",
+							"source": {
+								"$ref": "AAAAAAGa+AytKI0l6iU="
+							},
+							"target": {
+								"$ref": "AAAAAAGa+Ato+YzWo6A="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "AAAAAAGa+Azfvo0x1hE=",
+					"_parent": {
+						"$ref": "AAAAAAGa+Ao5gIzF/uI="
+					},
+					"name": "支付处理",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGa+A5jaI2bAUY=",
+							"_parent": {
+								"$ref": "AAAAAAGa+Azfvo0x1hE="
+							},
+							"name": "支付回执",
+							"source": {
+								"$ref": "AAAAAAGa+Azfvo0x1hE="
+							},
+							"target": {
+								"$ref": "AAAAAAGa+Axc1o0C9b4="
+							}
+						},
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGa+BCp642qROY=",
+							"_parent": {
+								"$ref": "AAAAAAGa+Azfvo0x1hE="
+							},
+							"name": "创建支付记录",
+							"source": {
+								"$ref": "AAAAAAGa+Azfvo0x1hE="
+							},
+							"target": {
+								"$ref": "AAAAAAGa+ApNJ4zKO/E="
+							}
+						},
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGa+Bth+45j9AU=",
+							"_parent": {
+								"$ref": "AAAAAAGa+Azfvo0x1hE="
+							},
+							"name": "更新订单状态",
+							"source": {
+								"$ref": "AAAAAAGa+Azfvo0x1hE="
+							},
+							"target": {
+								"$ref": "AAAAAAGa+AvIIozy66A="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "AAAAAAGa+A0AAo1RQDo=",
+					"_parent": {
+						"$ref": "AAAAAAGa+Ao5gIzF/uI="
+					},
+					"name": "预订下单",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGa+BIi/o20RNo=",
+							"_parent": {
+								"$ref": "AAAAAAGa+A0AAo1RQDo="
+							},
+							"name": "返回订单号",
+							"source": {
+								"$ref": "AAAAAAGa+A0AAo1RQDo="
+							},
+							"target": {
+								"$ref": "AAAAAAGa+Axc1o0C9b4="
+							}
+						},
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGa+BmkrY5Ai7Q=",
+							"_parent": {
+								"$ref": "AAAAAAGa+A0AAo1RQDo="
+							},
+							"name": "更新客房占用",
+							"source": {
+								"$ref": "AAAAAAGa+A0AAo1RQDo="
+							},
+							"target": {
+								"$ref": "AAAAAAGa+AuS0ozk/ao="
+							}
+						},
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGa+BwAp46CHLk=",
+							"_parent": {
+								"$ref": "AAAAAAGa+A0AAo1RQDo="
+							},
+							"name": "创建订单，锁定房源",
+							"source": {
+								"$ref": "AAAAAAGa+A0AAo1RQDo="
+							},
+							"target": {
+								"$ref": "AAAAAAGa+AvIIozy66A="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "AAAAAAGa+A0e9Y1dbNs=",
+					"_parent": {
+						"$ref": "AAAAAAGa+Ao5gIzF/uI="
+					},
+					"name": "房源维护",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGa+BlrdI41N8s=",
+							"_parent": {
+								"$ref": "AAAAAAGa+A0e9Y1dbNs="
+							},
+							"name": "更新客房状态，价格",
+							"source": {
+								"$ref": "AAAAAAGa+A0e9Y1dbNs="
+							},
+							"target": {
+								"$ref": "AAAAAAGa+AuS0ozk/ao="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "AAAAAAGa+A0/2Y1pQ2I=",
+					"_parent": {
+						"$ref": "AAAAAAGa+Ao5gIzF/uI="
+					},
+					"name": "房源搜索",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGa+BTGUI33ySo=",
+							"_parent": {
+								"$ref": "AAAAAAGa+A0/2Y1pQ2I="
+							},
+							"name": "返回可用列表",
+							"source": {
+								"$ref": "AAAAAAGa+A0/2Y1pQ2I="
+							},
+							"target": {
+								"$ref": "AAAAAAGa+Axc1o0C9b4="
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
